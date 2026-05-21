@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|c:\\xampp\\htdocs\\portfolio jonathan2025\\assets\\docs\\windowsformsappfixit (4)\\windowsformsappfixit\\windowsformsappfixit\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|solutionrelative:windowsformsappfixit\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\windowsformsappfixit\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|solutionrelative:windowsformsappfixit\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\windowsformsappfixit\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|solutionrelative:windowsformsappfixit\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\windowsformsappfixit\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3B69AFB-C1C8-4250-BAAA-2C3A8E3EC5FD}|WindowsFormsAppFixIT\\WindowsFormsAppFixIT.csproj|solutionrelative:windowsformsappfixit\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\FormLogin.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppFixIT\\FormLogin.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\FormLogin.cs",
+              "RelativeToolTip": "WindowsFormsAppFixIT\\FormLogin.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T14:28:35.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppFixIT\\Form1.cs",
+              "ToolTip": "C:\\bac\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\bac\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T14:27:36.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormLogin.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\FormLogin.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppFixIT\\FormLogin.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\FormLogin.cs [Design]",
+              "RelativeToolTip": "WindowsFormsAppFixIT\\FormLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T14:27:32.289Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsAppFixIT\\Form1.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\portfolio Jonathan2025\\assets\\docs\\WindowsFormsAppFixIT (4)\\WindowsFormsAppFixIT\\WindowsFormsAppFixIT\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsAppFixIT\\Form1.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T09:50:01.396Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

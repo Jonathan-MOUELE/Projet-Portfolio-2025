@@ -1,0 +1,16 @@
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\bin\Debug\WindowsFormsAppFixIT.exe.config
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\bin\Debug\WindowsFormsAppFixIT.exe
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\bin\Debug\WindowsFormsAppFixIT.pdb
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.csproj.AssemblyReference.cache
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.Form1.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.FormCategorie.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.FormClient.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.FormHistorique.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.FormLogin.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.FormProduit.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.Properties.Resources.resources
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.csproj.GenerateResource.cache
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.csproj.CoreCompileInputs.cache
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.exe
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.pdb
+C:\Users\Jonyx\Downloads\WindowsFormsAppFixIT (4)\WindowsFormsAppFixIT\obj\Debug\WindowsFormsAppFixIT.exe.config

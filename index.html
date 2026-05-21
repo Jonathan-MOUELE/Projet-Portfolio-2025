@@ -1,206 +1,436 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="dark">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jonathan MOUELE - Portfolio BTS SIO</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jonathan MOUELE — Développeur Web</title>
+    <meta name="description"
+        content="Portfolio de Jonathan MOUELE, étudiant BTS SIO SLAM à Aurlom BTS. Développeur Web — Python, PHP, React, C#. Session 2026.">
+    <link rel="stylesheet" href="assets/css/style.css?v=1.2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
+    <!-- ================================================================
+         HEADER
+         ================================================================ -->
     <header class="site-header">
-
-        <img src="assets/img/photo_jonathan_2025.jpg" alt="Photo de Jonathan MOUELE" class="profile-img">
-
-        <h1>Jonathan MOUELE</h1>
-
+        <div class="header-identity">
+            <img src="assets/img/photo_jonathan_2025.jpg" alt="Jonathan MOUELE" class="profile-img">
+            <div>
+                <span class="header-name">Jonathan MOUELE</span>
+                <span class="header-tag">Développeur Web</span>
+            </div>
+        </div>
         <nav>
             <ul class="nav-menu">
-                <li><a href="#profil">PROFIL</a></li>
-                <li><a href="#competences">COMPÉTENCES</a></li>
-                <li><a href="#epreuves">ÉPREUVES E5</a></li>
-                <li><a href="#veille">VEILLE TECHNO</a></li>
-                <li><a href="#projets">PROJETS</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#cv"><i class="fa-solid fa-id-card"></i> CV</a></li>
+                <li><a href="#competences"><i class="fa-solid fa-laptop-code"></i> Compétences</a></li>
+                <li><a href="#epreuves"><i class="fa-solid fa-graduation-cap"></i> Réalisations</a></li>
+                <li><a href="#veille"><i class="fa-solid fa-satellite-dish"></i> Veille</a></li>
+                <li><a href="#parcours"><i class="fa-solid fa-briefcase"></i> Stages</a></li>
+                <li><a href="#projets"><i class="fa-solid fa-code"></i> Projets</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-envelope"></i> Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- ================================================================
+         HERO
+         ================================================================ -->
+    <section class="hero">
+        <div>
+            <img src="assets/img/photo_jonathan_2025.jpg" alt="Jonathan MOUELE" class="hero-avatar">
+            <h1>Jonathan MOUELE</h1>
+            <p class="hero-subtitle">Développeur Web</p>
+            <p class="hero-desc">
+                Développeur Web en 2ᵉ année de BTS SIO SLAM à <strong>Aurlom BTS</strong>. Deux stages en entreprise —
+                EDG Microfinance et Talent Consulting Services. Veille active sur
+                l'<strong>IA embarquée</strong>.
+            </p>
+            <div class="hero-badges">
+                <span class="badge highlight">Python · Flask</span>
+                <span class="badge highlight">PHP · MySQL</span>
+                <span class="badge highlight">React · TypeScript</span>
+                <span class="badge highlight">C# · .NET</span>
+                <span class="badge">Symfony</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">HTML · CSS</span>
+                <span class="badge">SQL · SQLite</span>
+                <span class="badge">Git · GitHub</span>
+            </div>
+            <div class="hero-ctas">
+                <a href="#cv" class="btn btn-primary"><i class="fa-solid fa-file-pdf"></i> Voir le CV</a>
+                <a href="#epreuves" class="btn btn-outline"><i class="fa-solid fa-graduation-cap"></i> Réalisations
+                    E5/E6</a>
+            </div>
+        </div>
+    </section>
+
     <main class="main-content">
 
-        <section id="profil">
-            <h2>PROFIL & EXPÉRIENCES</h2>
+        <!-- ============================================================
+             CV + FICHE DE SYNTHÈSE + DIAPORAMAS (regroupés)
+             ============================================================ -->
+        <section id="cv" class="section-block" style="padding: 24px; margin-bottom: 20px;">
+            <p class="section-title"><i class="fa-solid fa-id-card"></i> Documents officiels</p>
+            <h2 class="section-heading">Curriculum Vitae &amp; Fiche de Synthèse</h2>
 
-            <h3>A PROPOS DE MOI</h3>
-            <p>
-                Étudiant en 2ème année de BTS SIO (SLAM) passionné par la conception et la réalisation
-                d'applications web et mobiles. Je recherche un stage de développeur pour le mois de décembre
-                afin de consolider mes compétences en Python, PHP et SQL au sein de votre équipe projet.
-            </p>
-
-            <h3>EXPÉRIENCES PROFESSIONNELLES</h3>
-            <ul class="list">
-                <li>Stage - Talent Consulting Services (décembre 2025 - janvier 2026) - Développement outil de gestion de tâches en PHP et SQL</li>
-                <li>Stage – EDG Microfinance (août-septembre 2025) - Développement formulaire RH Flask</li>
-                <li>Livraison en itinérance – Les Petits Délices de Val</li>
-                <li>Maintenance informatique et dépannage PC</li>
-            </ul>
-
-            <h3>MES QUALITÉS</h3>
-            <ul class="list">
-                <li>Rigoureux (Sérieux et implication)</li>
-                <li>Curieux et Autonome</li>
-                <li>Persévérant (Bon esprit analytique)</li>
-                <li>Rapidité d'apprentissage</li>
-            </ul>
-
-            <div style="text-align: center; margin-top: 3rem;">
-                <a href="https://drive.google.com/uc?export=download&id=17qIzh4U9QzCKtFZEk0kNhPjV-zQJ5qZ_"
-                    class="cta-btn" style="background-color: #e67e22;" download="CV_Jonathan_MOUELE_2025.pdf">
-                    TÉLÉCHARGER MON CV (PDF)
-                </a>
-            </div>
-        </section>
-
-        <section id="competences">
-            <h2>COMPÉTENCES TECHNIQUES</h2>
-            <h3>Langages de Programmation</h3>
-            <ul class="list">
-                <li>Web et Développement : HTML, CSS, JavaScript, PHP, Python, C#</li>
-            </ul>
-            <h3>Bases de données & Outils</h3>
-            <ul class="list">
-                <li>SGBD : SQLite, MySQL, MariaDB</li>
-                <li>Environnement : Microsoft Visual Studio, Visual Studio Code, XAMPP</li>
-            </ul>
-            <h3>Réseaux & Matériel</h3>
-            <ul class="list">
-                <li>Câblage réseau</li>
-                <li>Diagnostic et maintenance PC</li>
-                <li>Assemblage de composants</li>
-            </ul>
-        </section>
-
-        <section id="epreuves">
-            <h2>ÉPREUVES & CERTIFICATIONS</h2>
-
-            <div class="epreuve-block">
-                <h3>Épreuve E5 - Conception et Développement d'Applications</h3>
-
-                <p style="text-align: justify; margin-top: 1rem; padding: 0 5%; line-height: 1.6;">
-                    L'épreuve <strong>E5 (Unité U5SL)</strong> est l'évaluation certificative majeure du BTS SIO SLAM.
-                    Elle valide la maîtrise des compétences en analyse fonctionnelle et technique, gestion de projet et développement Full Stack.
-                </p>
-
-                <div style="text-align: center; margin-top: 2rem;">
-                    <a href="assets/docs/slides_parcours_entreprise.pdf" class="cta-btn"
-                        style="background-color: #2980b9; padding: 10px 20px; text-decoration: none; color: white; border-radius: 5px;"
-                        target="_blank">
-                        VOIR MES SLIDES DE PRÉSENTATION (E5)
-                    </a>
+            <div class="pdf-embed-wrapper" style="margin-bottom: 20px;">
+                <iframe src="assets/docs/cv_jonathan_mouele.pdf" class="pdf-embed" title="CV Jonathan MOUELE"></iframe>
+                <div class="pdf-actions">
+                    <a href="assets/docs/cv_jonathan_mouele.pdf" target="_blank" class="btn btn-primary"><i
+                            class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir en plein écran</a>
+                    <a href="assets/docs/cv_jonathan_mouele.pdf" download class="btn btn-outline"><i
+                            class="fa-solid fa-download"></i> Télécharger</a>
                 </div>
             </div>
 
-            <div class="epreuve-block" style="margin-top: 2rem;">
-    <h3>SITUATIONS PROFESSIONNELLES (PARCOURS E5)</h3>
-    <div class="projet-card">
-        <h4>SITUATION A : Gestion RH (Stage EDG Microfinance)</h4>
-        <p>Développement d'une application de recrutement sous <strong>Flask</strong>. Mise en place d'une base de données SQLite et gestion de la pagination.</p>
-    </div>
-    <div class="projet-card">
-        <h4>SITUATION B : Gestion de tâches (Stage TCS)</h4>
-        <p>Maintenance évolutive d'un outil de suivi en <strong>PHP</strong>. Optimisation des requêtes SQL et amélioration de l'interface utilisateur.</p>
-    </div>
-</div>
+            <!-- FICHE DE SYNTHÈSE -->
+            <div style="margin-top: 24px;">
+                <div class="doc-card" style="padding: 20px;">
+                    <div class="doc-card-icon"><i class="fa-solid fa-file-excel fa-2x"
+                            style="color: var(--accent-green);"></i></div>
+                    <div class="doc-card-info">
+                        <h4>Tableau de Synthèse des réalisations professionnelles</h4>
+                        <p>Session 2026 · BTS SIO SLAM · N° candidat : 2542601038 · Aurlom BTS</p>
+                    </div>
+                    <a href="assets/docs/TABLEAU DE SYNTHESE JONATHAN_MOUELE.xlsx" download class="btn btn-outline"><i
+                            class="fa-solid fa-download"></i> Télécharger</a>
+                </div>
+            </div>
         </section>
 
-        <section id="veille">
-            <h2>VEILLE TECHNOLOGIQUE</h2>
+        <!-- ============================================================
+             COMPÉTENCES (compact, sans %)
+             ============================================================ -->
+        <section id="competences" class="section-block" style="padding: 24px; margin-bottom: 20px;">
+            <p class="section-title"><i class="fa-solid fa-laptop-code"></i> Expertise technique</p>
+            <h2 class="section-heading">Compétences</h2>
 
-            <p style="text-align: center; margin-bottom: 2rem;">
-                <img src="assets/img/ia_embarquee_veille.jpg"
-                    alt="L'évolution de l'IA Générative à l'IA Embarquée sur Microcontrôleur" class="veille-img">
-            </p>
-
-            <h3>DÉFINITION</h3>
-            <p>
-                La veille technologique est un processus de surveillance continue et systématique des innovations, des
-                évolutions et des nouvelles technologies dans un domaine spécifique.
-            </p>
-
-            <h3>MON SUJET DE VEILLE : L'IA EMBARQUÉE (EDGE AI)</h3>
-            <p>
-                L'IA embarquée (Edge AI) désigne l'intégration de capacités d'intelligence artificielle directement
-                dans des appareils physiques (smartphones, drones, IoT) plutôt que de s'appuyer sur le cloud.
-            </p>
-
-            <h3>OUTILS ET SOURCES PROFESSIONNELLES</h3>
-            <ul class="list">
-                <li>LinkedIn & Google Alerts.</li>
-                <li>Feedly (Agrégateur de flux RSS).</li>
-                <li>GitHub (Projets Open Source).</li>
-            </ul>
-
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="assets/docs/slides_veille_techno.pdf" class="cta-btn"
-                    style="background-color: #8e44ad; padding: 10px 20px; text-decoration: none; color: white; border-radius: 5px;"
-                    target="_blank">
-                    TÉLÉCHARGER MA PRÉSENTATION DE VEILLE
-                </a>
+            <h3 class="sub-heading">Langages &amp; Frameworks</h3>
+            <div class="tech-chips">
+                <span class="chip accent">Python · Flask</span>
+                <span class="chip accent">PHP · MySQL</span>
+                <span class="chip accent">C# · .NET</span>
+                <span class="chip accent">JavaScript · TypeScript</span>
+                <span class="chip accent">React</span>
+                <span class="chip accent">Symfony</span>
+                <span class="chip">HTML · CSS</span>
+                <span class="chip">SQL (MySQL · SQLite · SQL Server)</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Entity Framework</span>
             </div>
 
-            <h3>THÈMES SUIVIS</h3>
-            <ul class="list">
-                <li>Optimisation des modèles d'IA pour les ressources limitées.</li>
-                <li>Développement de puces et accélérateurs dédiés à l'IA sur l'appareil.</li>
-                <li>Applications de l'IA embarquée dans l'automobile, la robotique et l'IoT.</li>
-            </ul>
+            <h3 class="sub-heading">Outils &amp; Environnements</h3>
+            <div class="tech-chips">
+                <span class="chip">Visual Studio Code</span>
+                <span class="chip">Visual Studio 2022</span>
+                <span class="chip">XAMPP</span>
+                <span class="chip">Git / GitHub</span>
+                <span class="chip">Netlify</span>
+                <span class="chip">Windows Server</span>
+            </div>
+
+            <h3 class="sub-heading">Infrastructure &amp; Réseaux</h3>
+            <div class="tech-chips">
+                <span class="chip">Câblage réseau</span>
+                <span class="chip">Diagnostic matériel</span>
+                <span class="chip">Configuration sécurité réseau</span>
+                <span class="chip">Sécurisation applicative</span>
+            </div>
         </section>
 
-        <section id="projets">
-            <h2>RÉALISATIONS & PROJETS</h2>
-            <div class="projet-card">
-                <h3>Site E-commerce (Projet BTS)</h3>
-                <p class="technos">Technologies: PHP, SQL Server</p>
-                <p>Conception d'une plateforme de vente en ligne complète, incluant une interface administrateur sécurisée pour la gestion de base de données.</p>
+        <!-- ============================================================
+             ÉPREUVES E5 / E6 (Réalisations d'études - PPE)
+             ============================================================ -->
+        <section id="epreuves" class="section-block" style="padding: 24px; margin-bottom: 20px;">
+            <p class="section-title">Certification BTS SIO</p>
+            <h2 class="section-heading">Réalisations d'études (PPE)</h2>
+
+            <p>Session 2026 · N° candidat : 2542601038 · Référentiel BTS SIO SLAM</p>
+
+            <!-- Projets formation -->
+            <div class="stage-card" style="padding: 24px; margin-bottom: 20px;">
+                <span class="stage-label">PPE 1 · Bloc D</span>
+                <h3>Création d'un site de vente en ligne</h3>
+                <div class="stage-period">03/2025 – 06/2025 · Projet académique</div>
+                <p>Conception d'une boutique e-commerce complète avec tunnel d'achat, gestion de panier et interface
+                    d'administration sécurisée.</p>
+                <div class="tech-chips">
+                    <span class="chip accent">PHP · MySQL</span>
+                    <span class="chip">HTML · CSS</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">MCD</span>
+                </div>
             </div>
-            <div class="projet-card">
-                <h3>Formulaire de recrutement (Stage EDG Microfinance)</h3>
-                <p class="technos">Technologies: Python (Flask), HTML, CSS, SQLite</p>
-                <p>Développement d'une interface web pour la gestion des ressources humaines, avec pagination et sécurisation de la connexion administrateur.</p>
-            </div>
-            <div class="projet-card">
-                <h3>Outil de gestion de tâches (Stage Talent Consulting Services)</h3>
-                <p class="technos">Technologies: PHP, SQL</p>
-                <p>Développement d'une interface web pour la gestion des activités professionnelles.</p>
+            <div class="stage-card" style="padding: 24px; margin-bottom: 20px;">
+                <span class="stage-label">PPE 2 · Bloc D</span>
+                <h3>Outil de bureau — Windows Forms (FixIT)</h3>
+                <div class="stage-period">10/2025 – 03/2026 · Projet académique</div>
+                <p>Application desktop en C# avec Visual Studio 2022. Gestion de données, interface graphique Windows
+                    Forms, logique métier structurée.</p>
+                <div class="tech-chips">
+                    <span class="chip accent">C#</span>
+                    <span class="chip">Visual Studio 2022</span>
+                    <span class="chip">Windows Forms</span>
+                    <span class="chip">SQL Server</span>
+                </div>
+                <div style="margin-top: 12px;">
+                    <a href="assets/docs/WindowsFormsAppFixIT (4).zip" download class="btn btn-outline"
+                        style="font-size: 0.78rem; padding: 6px 14px;"><i class="fa-solid fa-download"></i>
+                        Télécharger</a>
+                </div>
             </div>
 
-            <p style="text-align: center; margin-top: 2rem;">Retrouvez l'intégralité de mes projets et réalisations dans mon CV téléchargeable.</p>
         </section>
 
-        <section id="contact">
-            <h2>ME CONTACTER</h2>
+        <!-- ============================================================
+             VEILLE TECHNOLOGIQUE
+             ============================================================ -->
+        <section id="veille" class="section-block">
+            <p class="section-title">Développement professionnel continu</p>
+            <h2 class="section-heading">Veille Technologique — IA Embarquée</h2>
 
-            <p style="text-align: center; font-size: 1.1rem; margin-bottom: 2rem;">
-                N'hésitez pas à me contacter directement par téléphone ou par e-mail.
+            <p>Thème suivi : <strong>L'intelligence artificielle embarquée</strong> — exécution de modèles IA
+                directement sur les terminaux (IoT, microcontrôleurs, smartphones) sans dépendre du cloud. Enjeux :
+                latence quasi nulle, confidentialité des données, continuité hors-ligne.</p>
+
+            <a href="assets/docs/slides_veille_techno.pdf" target="_blank" class="veille-hero-link"
+                title="Consulter les slides de veille (PDF)">
+                <div class="veille-hero">
+                    <img src="assets/img/ia_embarquee_veille.jpg" alt="IA Embarquée">
+                    <div class="veille-hero-caption">
+                        Slides de veille — IA Embarquée · Session 2026 <i class="fa-solid fa-arrow-up-right-from-square"
+                            style="font-size: 0.8rem; margin-left: 0.5rem;"></i>
+                    </div>
+                </div>
+            </a>
+
+            <h3>Outils de veille</h3>
+            <div class="tech-chips">
+                <span class="chip">Google Alerts</span>
+                <span class="chip">Feedly</span>
+                <span class="chip">LinkedIn</span>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             PARCOURS ENTREPRISE (STAGES)
+             ============================================================ -->
+        <section id="parcours" class="section-block" style="padding: 24px; margin-bottom: 20px;">
+            <p class="section-title"><i class="fa-solid fa-graduation-cap"></i> Parcours Entreprise</p>
+            <h2 class="section-heading">Stages &amp; Diaporamas</h2>
+            <p style="font-size: 0.85rem; margin-bottom: 16px;">Retrouvez ici les diaporamas de mes differents stages.
             </p>
 
-            <div style="text-align: center;">
-                <h3>Téléphone</h3>
-                <p><a href="tel:0775857752" style="color: #3498db; text-decoration: none; font-weight: bold;">07 75 85 77 52</a></p>
+            <!-- Stage 1 -->
+            <h3 class="sub-heading" style="margin-top: 20px;">Stage Année 1 — EDG Microfinance</h3>
+            <div class="stage-card" style="padding: 24px; margin-bottom: 20px;">
+                <span class="stage-label">Août – Sept. 2025 · Blocs B, C, D, E, F</span>
+                <h3>Outil de gestion de candidatures — Python/Flask/SQLite</h3>
+                <div class="stage-period">Épargne &amp; Développement du Gabon · Service DSI</div>
+                <p>Développement d'un formulaire RH web interne pour la collecte et le suivi des candidatures.
+                    Encadrement quotidien par Mr. Vinny MAYOMBO (Tuteur DSI). Maintenance du parc informatique et
+                    câblage réseau.</p>
+                <div class="tech-chips">
+                    <span class="chip accent">Python · Flask</span>
+                    <span class="chip accent">SQLite</span>
+                    <span class="chip">HTML · CSS</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">MCD · MLD</span>
+                </div>
+                <ul class="competences-list">
+                    <li>Analyse du besoin et structuration des données de candidatures → <strong>Blocs B, D</strong>
+                    </li>
+                    <li>Conception d'un formulaire sécurisé d'enregistrement et de suivi → <strong>Blocs A, B,
+                            D</strong></li>
+                    <li>Développement de l'interface web et de la logique back-end → <strong>Blocs B, C, D, E</strong>
+                    </li>
+                    <li>Optimisation des requêtes SQLite et organisation des données → <strong>Blocs A, D, E</strong>
+                    </li>
+                    <li>Développement de l'identité professionnelle → <strong>Bloc F</strong></li>
+                </ul>
+                <div class="pdf-embed-wrapper" style="margin-top: 16px;">
+                    <iframe src="assets/docs/Soutenance de Stage  - Jonathan MOUELE.pdf"
+                        class="pdf-embed-slide" title="Soutenance Stage 1"></iframe>
+                    <div class="pdf-actions">
+                        <a href="assets/docs/Soutenance de Stage  - Jonathan MOUELE.pdf" target="_blank" class="btn btn-primary" style="font-size:0.8rem;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir</a>
+                        <a href="assets/docs/Soutenance de Stage  - Jonathan MOUELE.pptx" download class="btn btn-outline" style="font-size:0.8rem;"><i class="fa-solid fa-download"></i> Télécharger PPTX</a>
+                    </div>
+                </div>
+            </div>
 
-                <h3>E-mail</h3>
-                <p><a href="mailto:jonathanmouele42@gmail.com" style="color: #3498db; text-decoration: none; font-weight: bold;">jonathanmouele42@gmail.com</a></p>
+            <!-- Stage 2 -->
+            <h3 class="sub-heading" style="margin-top: 20px;">Stage Année 2 — Talent Consulting Services</h3>
+            <div class="stage-card" style="padding: 24px; margin-bottom: 20px;">
+                <span class="stage-label">Déc. 2025 – Janv. 2026 · Blocs A, B, C, D, E, F</span>
+                <h3>Application de gestion des feuilles de temps — PHP/MySQL</h3>
+                <div class="stage-period">ESN · Audit, Conseil &amp; Solutions Réseaux · Encadrant : Mr. Karl KOMBILA
+                </div>
+                <p>Développement complet d'une application Timesheet numérique permettant aux collaborateurs de saisir,
+                    valider et exporter leurs heures. Rédaction du manuel utilisateur. Travail en mode télétravail avec
+                    réunions de suivi régulières.</p>
+                <div class="tech-chips">
+                    <span class="chip accent">PHP</span>
+                    <span class="chip accent">MySQL</span>
+                    <span class="chip">HTML · CSS</span>
+                    <span class="chip">JavaScript</span>
+                    <span class="chip">MCD · MLD</span>
+                </div>
+                <ul class="competences-list">
+                    <li>Analyse du besoin de suivi du temps de travail → <strong>Blocs B, D, F</strong></li>
+                    <li>Conception de la structure applicative et des tables de données → <strong>Blocs A, B, D</strong>
+                    </li>
+                    <li>Développement du module de saisie, validation et suivi des heures → <strong>Blocs B, C, D,
+                            E</strong></li>
+                    <li>Tests d'intégration, rédaction de la documentation et accompagnement → <strong>Blocs E,
+                            F</strong></li>
+                </ul>
+                <div class="pdf-embed-wrapper" style="margin-top: 16px;">
+                    <iframe src="assets/docs/Soutenance de Stage  2- Jonathan MOUELE.pdf"
+                        class="pdf-embed-slide" title="Soutenance Stage 2"></iframe>
+                    <div class="pdf-actions">
+                        <a href="assets/docs/Soutenance de Stage  2- Jonathan MOUELE.pdf" target="_blank" class="btn btn-primary" style="font-size:0.8rem;"><i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir</a>
+                        <a href="assets/docs/Soutenance de Stage  2- Jonathan MOUELE (1).pptx" download class="btn btn-outline" style="font-size:0.8rem;"><i class="fa-solid fa-download"></i> Télécharger PPTX</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             PROJETS
+             ============================================================ -->
+        <section id="projets" class="section-block">
+            <p class="section-title"><i class="fa-solid fa-code"></i> Réalisations personnelles</p>
+            <h2 class="section-heading">Projets</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>APEX — Job Board</h3>
+                    <div class="tech-chips"><span class="chip accent">.NET</span><span class="chip">SQL
+                            Server</span><span class="chip">Gemini API</span><span class="chip">C#</span></div>
+                    <p>Matching prédictif et agents autonomes pour un job board. Interface mobile-first. Intégration IA
+                        Gemini pour les recommandations.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jonathan-MOUELE" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.75rem; padding: 0.35rem 0.8rem;"><i class="fa-brands fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>EventRoom — Réservation</h3>
+                    <div class="tech-chips"><span class="chip accent">Symfony</span><span class="chip">PHP</span><span
+                            class="chip">MySQL</span></div>
+                    <p>Moteur de réservation de salles avec authentification, dashboard admin. Algorithme anti-doublon
+                        et gestion des conflits en temps réel.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jonathan-MOUELE" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.75rem; padding: 0.35rem 0.8rem;"><i class="fa-brands fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>CodeKnow — Apprendre à coder</h3>
+                    <div class="tech-chips"><span class="chip accent">React</span><span
+                            class="chip">TypeScript</span><span class="chip">Gemini API</span><span
+                            class="chip">Firebase</span></div>
+                    <p>Plateforme d'apprentissage interactif avec système de quêtes et corrections IA (Gemini).
+                        Architecture React + Firebase temps réel.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jonathan-MOUELE" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.75rem; padding: 0.35rem 0.8rem;"><i class="fa-brands fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>SOS-Océans</h3>
+                    <div class="tech-chips"><span class="chip">HTML</span><span class="chip">CSS</span><span
+                            class="chip">JavaScript</span></div>
+                    <p>Site de sensibilisation aux crises environnementales marines. Travail approfondi sur l'ergonomie
+                        et l'intégration multimédia.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jonathan-MOUELE" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.75rem; padding: 0.35rem 0.8rem;"><i class="fa-brands fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>SOS-Boubous</h3>
+                    <div class="tech-chips"><span class="chip accent">PHP</span><span class="chip">MySQL</span><span
+                            class="chip">CSS</span></div>
+                    <p>Plateforme web pour une association d'adoption canine. Système complet de gestion de BDD pour le
+                        suivi des animaux et des adoptions.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jonathan-MOUELE" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.75rem; padding: 0.35rem 0.8rem;"><i class="fa-brands fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Site E-commerce (Projet BTS)</h3>
+                    <div class="tech-chips"><span class="chip accent">PHP</span><span class="chip">MySQL</span><span
+                            class="chip">JavaScript</span></div>
+                    <p>Boutique en ligne avec tunnel d'achat, gestion de panier et interface d'administration sécurisée
+                        (Back-Office). Réalisé dans le cadre du BTS.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Jonathan-MOUELE" target="_blank" class="btn btn-outline"
+                            style="font-size: 0.75rem; padding: 0.35rem 0.8rem;"><i class="fa-brands fa-github"></i>
+                            GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem;">
+                Tous mes projets sont disponibles sur <a href="https://github.com/Jonathan-MOUELE" target="_blank"
+                    style="color: var(--accent); font-weight: 600;">GitHub @Jonathan-MOUELE</a>
+            </p>
+        </section>
+
+        <!-- ============================================================
+             CONTACT
+             ============================================================ -->
+        <section id="contact" class="section-block">
+            <p class="section-title"><i class="fa-solid fa-envelope"></i> Disponibilité &amp; échanges</p>
+            <h2 class="section-heading">Me Contacter</h2>
+            <p style="text-align: center; max-width: 500px; margin: 0 auto 1.75rem;">À votre disposition pour toute
+                information complémentaire. Disponible en alternance dès le 17 juin 2026.</p>
+
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <h4>Téléphone</h4>
+                    <a href="tel:0775857752">07 75 85 77 52</a>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <h4>E-mail</h4>
+                    <a href="mailto:jonathanmouele42@gmail.com">jonathanmouele42@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fa-brands fa-github"></i></div>
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/Jonathan-MOUELE" target="_blank">@Jonathan-MOUELE</a>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><i class="fa-solid fa-globe"></i></div>
+                    <h4>Portfolio en ligne</h4>
+                    <a href="https://portfoliojonathanmouele.netlify.app"
+                        target="_blank">portfoliojonathanmouele.netlify.app</a>
+                </div>
             </div>
         </section>
 
     </main>
 
     <footer>
-        <p>Copyright © 2025 Jonathan MOUELE | Réalisé en BTS SIO SLAM</p>
+        <p>© 2026 Jonathan MOUELE · N° candidat : 2542601038</p>
     </footer>
 
 </body>
+
 </html>
